@@ -75,14 +75,18 @@
       "date": "2026-11-16",
       "start_time": "18:30",
       "location": "名古屋",
-      "title": "中部東海たまり場"
+      "title": "中部東海たまり場",
+      "signup_url": "https://salon-tamariba.netlify.app/#line-cta",
+      "signup_label": "ビギナープランで参加"
     },
     {
       "date": "2026-11-24",
       "start_time": "18:00",
       "end_time": "20:00",
       "location": "博多",
-      "title": "九州たまり場"
+      "title": "九州たまり場",
+      "signup_url": "https://salon-tamariba.netlify.app/#line-cta",
+      "signup_label": "ビギナープランで参加"
     }
   ],
   "line_groups": [
