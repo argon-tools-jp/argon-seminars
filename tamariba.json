@@ -5,6 +5,55 @@
   "page_title": "サロンのたまり場 年間スケジュール",
   "events": [
     {
+      "date": "2026-11-06",
+      "start_time": "18:00",
+      "location": "宇都宮",
+      "title": "東北たまり場",
+      "signup_url": "https://chouseisan.com/s?h=7a0667e9b8a5433bab312b34d057f168",
+      "signup_label": "出欠入力"
+    },
+    {
+      "date": "2026-11-16",
+      "start_time": "18:30",
+      "location": "名古屋",
+      "title": "中部東海たまり場",
+      "signup_url": "https://salon-tamariba.netlify.app/#line-cta",
+      "signup_label": "ビギナープランで参加"
+    },
+    {
+      "date": "2026-11-24",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "location": "博多",
+      "title": "九州たまり場",
+      "signup_url": "https://salon-tamariba.netlify.app/#line-cta",
+      "signup_label": "ビギナープランで参加"
+    }
+  ],
+  "line_groups": [
+    {
+      "region": "東北",
+      "url": "https://line.me/ti/g2/yF1y_m4LtR0h_lWHK4JvFpQAGI0hNI0cl_nfxw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+    },
+    {
+      "region": "関東",
+      "url": "https://line.me/ti/g2/hr5vXT3nr3F7ZmXISORquREWK1818TSPD82S3g?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+    },
+    {
+      "region": "中部東海",
+      "url": "https://line.me/ti/g2/aX0mopddob1BFfihQQYRHFLtcrFNMz6uUIOuYQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+    },
+    {
+      "region": "関西",
+      "url": "https://line.me/ti/g2/zXo3l-T-CG-U3yDUX79_s18x2Vb5uoGV6l1YCw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+    },
+    {
+      "region": "九州",
+      "url": "https://line.me/ti/g2/vVDKUzhiUWNXP06ZgUAYPUOheWRBs43LFj7I_Q?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+    }
+  ],
+  "past_events": [
+    {
       "date": "2026-05-22",
       "start_time": "18:30",
       "location": "仙台",
@@ -63,53 +112,6 @@
       "title": "関西たまり場",
       "signup_url": "https://chouseisan.com/s?h=7fc64fae215f4d7a886b1839a5b49151",
       "signup_label": "出欠入力"
-    },
-    {
-      "date": "2026-11-06",
-      "start_time": "18:00",
-      "location": "宇都宮",
-      "title": "東北たまり場",
-      "signup_url": "https://chouseisan.com/s?h=7a0667e9b8a5433bab312b34d057f168",
-      "signup_label": "出欠入力"
-    },
-    {
-      "date": "2026-11-16",
-      "start_time": "18:30",
-      "location": "名古屋",
-      "title": "中部東海たまり場",
-      "signup_url": "https://salon-tamariba.netlify.app/#line-cta",
-      "signup_label": "ビギナープランで参加"
-    },
-    {
-      "date": "2026-11-24",
-      "start_time": "18:00",
-      "end_time": "20:00",
-      "location": "博多",
-      "title": "九州たまり場",
-      "signup_url": "https://salon-tamariba.netlify.app/#line-cta",
-      "signup_label": "ビギナープランで参加"
-    }
-  ],
-  "line_groups": [
-    {
-      "region": "東北",
-      "url": "https://line.me/ti/g2/yF1y_m4LtR0h_lWHK4JvFpQAGI0hNI0cl_nfxw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
-    },
-    {
-      "region": "関東",
-      "url": "https://line.me/ti/g2/hr5vXT3nr3F7ZmXISORquREWK1818TSPD82S3g?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
-    },
-    {
-      "region": "中部東海",
-      "url": "https://line.me/ti/g2/aX0mopddob1BFfihQQYRHFLtcrFNMz6uUIOuYQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
-    },
-    {
-      "region": "関西",
-      "url": "https://line.me/ti/g2/zXo3l-T-CG-U3yDUX79_s18x2Vb5uoGV6l1YCw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
-    },
-    {
-      "region": "九州",
-      "url": "https://line.me/ti/g2/vVDKUzhiUWNXP06ZgUAYPUOheWRBs43LFj7I_Q?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
     }
   ]
 }
