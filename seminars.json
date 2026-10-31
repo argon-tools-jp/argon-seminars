@@ -1,30 +1,9 @@
 {
-  "month": "2026-10",
-  "updated_at": "2026-09-28",
+  "month": "2026-11",
+  "updated_at": "2026-10-31",
   "host": {
     "name": "門脇 幸平",
     "title": "Argonグループ 代表"
   },
-  "seminars": [
-    {
-      "date": "2026-10-23",
-      "start_time": "18:30",
-      "end_time": "21:00",
-      "location": "東京(浅草)",
-      "title": "サロンオーナー交流会＠屋形船",
-      "description": "エステサロンを多店舗展開されている\nホワラ株式会社　代表取締役　夏原様\n株式会社NA company　代表取締役　奈良様\nと門脇のコラボイベント！",
-      "signup_url": "https://argon-salon-owner-1023.netlify.app/",
-      "signup_label": "詳細"
-    },
-    {
-      "date": "2026-10-25",
-      "start_time": "10:00",
-      "end_time": "16:00",
-      "location": "東京(大井町)",
-      "title": "セラピストJapan Fes 2026",
-      "description": "美容・健康業界に\n関わる方々が集まり、\n\n・リアルな経営戦略を学ぶ\n・同じ業界で頑張る仲間とつながる\n・自分やお店の強みを見つめ直す\n\nそんなきっかけを得られる\nリアルイベントです✨\n\n⚠️チケットをご購入いただく際は\n紹介者選択欄で\n【株式会社Argon】を選択して\nご購入をお願いいたします。",
-      "signup_url": "https://therapistjapanfes.com",
-      "signup_label": "詳細"
-    }
-  ]
+  "seminars": []
 }

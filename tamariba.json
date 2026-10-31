@@ -1,6 +1,6 @@
 {
   "year": "2026",
-  "updated_at": "2026-05-13",
+  "updated_at": "2026-10-31",
   "page_title": "サロンのたまり場 年間スケジュール",
   "events": [
     {
@@ -66,10 +66,23 @@
     {
       "date": "2026-11-06",
       "start_time": "18:00",
-      "location": "仙台",
+      "location": "宇都宮",
       "title": "東北たまり場",
       "signup_url": "https://chouseisan.com/s?h=7a0667e9b8a5433bab312b34d057f168",
       "signup_label": "出欠入力"
+    },
+    {
+      "date": "2026-11-16",
+      "start_time": "18:30",
+      "location": "名古屋",
+      "title": "中部東海たまり場"
+    },
+    {
+      "date": "2026-11-24",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "location": "博多",
+      "title": "九州たまり場"
     }
   ],
   "line_groups": [
