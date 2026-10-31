@@ -1,9 +1,20 @@
 {
-  "month": "2026-11",
+  "month": "2026",
   "updated_at": "2026-10-31",
   "host": {
     "name": "門脇 幸平",
     "title": "Argonグループ 代表"
   },
-  "seminars": []
+  "seminars": [
+    {
+      "date": "2026-12-11",
+      "start_time": "19:00",
+      "end_time": "21:00",
+      "location": "東京(新宿)",
+      "title": "サロンオーナー限定 クリスマス交流会",
+      "description": "板前さんを招いた、お寿司のクリスマスパーティー🍣🎄\n株式会社mug・合同会社io　代表取締役　片伊木様\nと門脇の共同主催イベント！\n\n参加費 12,000円（お寿司・お飲み物付き）\n定員20名／申込期限 12/5(土)",
+      "signup_url": "https://argon-salon-xmas-1211.netlify.app/",
+      "signup_label": "詳細"
+    }
+  ]
 }

@@ -44,7 +44,10 @@ function render(data, tamariba) {
     hostEl.textContent = `${title}${data.host.name}`;
   }
 
-  if (data.month) {
+  if (/^\d{4}$/.test(data.month || "")) {
+    // 年単位の掲載（例: "2026"）。見出しは年だけ出す
+    monthEl.textContent = `${data.month}`;
+  } else if (data.month) {
     const [yyyy, mm] = data.month.split("-");
     const monthIdx = parseInt(mm, 10) - 1;
     if (!Number.isNaN(monthIdx)) {
@@ -58,15 +61,31 @@ function render(data, tamariba) {
 
   const seminars = (Array.isArray(data.seminars) ? data.seminars : []).filter((s) => s.date);
   const upcoming = mergeTamariba(seminars, tamariba, data.month)
+    .filter((s) => !isYearScope(data.month) || !isPast(s))
     .sort((a, b) => a.date.localeCompare(b.date));
 
   if (upcoming.length === 0) {
-    const msg = data.empty_message || "今月の開催予定は現在準備中です。決まり次第こちらに掲載します。";
+    const msg = data.empty_message || (isYearScope(data.month)
+      ? "今後の開催予定は現在準備中です。決まり次第こちらに掲載します。"
+      : null) || "今月の開催予定は現在準備中です。決まり次第こちらに掲載します。";
     listEl.innerHTML = `<p class="empty">${escapeHtml(msg)}</p>`;
     return;
   }
 
   listEl.innerHTML = upcoming.map(renderCard).join("");
+}
+
+// month が "2026" のような年指定なら、年内のイベントをまとめて出す（終わったものは隠す）
+function isYearScope(month) {
+  return /^\d{4}$/.test(month || "");
+}
+
+function todayJst() {
+  return new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+}
+
+function isPast(e) {
+  return (e.end_date || e.date) < todayJst();
 }
 
 // 同じイベントが seminars.json にも書かれている場合の重複よけ
