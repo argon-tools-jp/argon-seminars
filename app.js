@@ -62,6 +62,7 @@ function render(data, tamariba) {
   const seminars = (Array.isArray(data.seminars) ? data.seminars : []).filter((s) => s.date);
   const upcoming = mergeTamariba(seminars, tamariba, data.month)
     .filter((s) => !isYearScope(data.month) || !isPast(s))
+    .filter((s) => !data.show_from || (s.end_date || s.date) >= data.show_from)
     .sort((a, b) => a.date.localeCompare(b.date));
 
   if (upcoming.length === 0) {

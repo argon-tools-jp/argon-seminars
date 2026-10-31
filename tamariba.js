@@ -27,6 +27,8 @@ function render(data) {
   const events = Array.isArray(data.events) ? data.events : [];
   const sorted = events
     .filter((e) => e.date)
+    // show_from（例: "2026-11-01"）より前に終わったイベントは出さない
+    .filter((e) => !data.show_from || (e.end_date || e.date) >= data.show_from)
     .sort((a, b) => a.date.localeCompare(b.date));
 
   if (sorted.length === 0) {
